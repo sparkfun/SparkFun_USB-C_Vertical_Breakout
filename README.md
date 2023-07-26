@@ -1,4 +1,4 @@
-SparkFun <USB-C Vertical Mount Breakout>
+SparkFun USB-C Vertical Mount Breakout <>
 ========================================
 
 [![USB-C Vertical Mount Breakout](URL for picture of part)](URL for product on Sparkfun.com)
@@ -17,7 +17,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](https://github.com/sparkfun/USB-C_Vertical_Breakout/tree/main/Libraries)** - <EAGLE> library for the <USB-C Vertical Mount Breakout>.
+* **[Library](https://github.com/sparkfun/USB-C_Vertical_Breakout/tree/main/Libraries)** - <EAGLE> library for the Vertical Mount USB-C Connector<>.
 * **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.

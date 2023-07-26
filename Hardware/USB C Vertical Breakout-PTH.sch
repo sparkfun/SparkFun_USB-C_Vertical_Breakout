@@ -22594,17 +22594,17 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <text x="148.59" y="7.112" size="2.54" layer="94">Revision by: </text>
 <text x="148.59" y="7.112" size="2.54" layer="94">Revision by: </text>
 <text x="175.006" y="7.112" size="2.54" layer="94">M. Chodikov</text>
-<text x="88.9" y="124.46" size="1.778" layer="97">Power Range: 5V, 5A MAX</text>
+<text x="88.9" y="124.46" size="1.778" layer="97">Output Current: 5A MAX</text>
 </plain>
 <instances>
-<instance part="LOGO2" gate="G$1" x="232.41" y="52.07" smashed="yes"/>
+<instance part="LOGO2" gate="G$1" x="232.41" y="46.99" smashed="yes"/>
 <instance part="FD1" gate="G$1" x="246.38" y="33.02" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="243.84" y="33.02" smashed="yes"/>
 <instance part="FD3" gate="G$1" x="243.84" y="30.48" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="246.38" y="30.48" smashed="yes"/>
 <instance part="H1" gate="G$1" x="238.76" y="33.02" smashed="yes"/>
 <instance part="H2" gate="G$1" x="238.76" y="30.48" smashed="yes"/>
-<instance part="LOGO1" gate="G$1" x="157.48" y="40.64" smashed="yes"/>
+<instance part="LOGO1" gate="G$1" x="154.94" y="35.56" smashed="yes"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="V" x="147.32" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
@@ -22629,7 +22629,7 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <instance part="GND3" gate="1" x="111.76" y="83.82" smashed="yes">
 <attribute name="VALUE" x="111.76" y="83.566" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="LOGO3" gate="G$1" x="189.992" y="53.34" smashed="yes"/>
+<instance part="LOGO3" gate="G$1" x="187.452" y="48.26" smashed="yes"/>
 <instance part="R2" gate="R1" x="121.92" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.476" y="91.44" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="123.698" y="97.536" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
