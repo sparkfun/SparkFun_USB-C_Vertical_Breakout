@@ -1,28 +1,24 @@
-SparkFun <PRODUCT NAME>
+SparkFun <USB-C Vertical Mount Breakout>
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+[![USB-C Vertical Mount Breakout](URL for picture of part)](URL for product on Sparkfun.com)
 
 [*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
 
-<Basic description of the part.>
+<This project is a simple breakout board for a USB-C Vertical Mount Breakout connector.>
 
 Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
-* **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
+*   **/Production** - Production panel files (.brd)
+* **/Libraries** - Libraries for use with the <USB-C Vertical Mount Breakout>
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
+* **[Library](https://github.com/sparkfun/USB-C_Vertical_Breakout/tree/main/Libraries)** - <EAGLE> library for the <USB-C Vertical Mount Breakout>.
 * **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
 

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0127" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -39,10 +39,10 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -912,8 +912,8 @@
 <package name="USB-C-8P-2LAYER-VERTICAL-PTH">
 <text x="0" y="2.6" size="0.4" layer="25" align="center">&gt;Name</text>
 <text x="0" y="2" size="0.4" layer="27" align="center">&gt;Value</text>
-<pad name="SHLD2" x="2" y="1.93" drill="0.4" diameter="0.6" shape="long" rot="R180" stop="no"/>
-<wire x1="1.5" y1="1.93" x2="2.5" y2="1.93" width="0.6" layer="46"/>
+<pad name="SHLD2" x="2" y="1.93" locked="yes" drill="0.4" diameter="0.6" shape="long" rot="R180" stop="no"/>
+<wire x1="1.3" y1="1.93" x2="2.7" y2="1.93" width="0.6" layer="46"/>
 <polygon width="0.01" layer="29">
 <vertex x="1.5" y="2.53"/>
 <vertex x="2.5" y="2.53" curve="-90"/>
@@ -925,7 +925,7 @@
 <wire x1="-3.9" y1="1.725" x2="3.9" y2="1.725" width="0.05" layer="51"/>
 <wire x1="4.47" y1="1.2" x2="4.47" y2="-1.2" width="0.05" layer="51"/>
 <wire x1="3.9" y1="1.725" x2="4.47" y2="1.2" width="0.05" layer="51" curve="-94.297798"/>
-<rectangle x1="-0.6" y1="0.625" x2="-0.3" y2="0.825" layer="51"/>
+<rectangle x1="-0.6" y1="0.6" x2="-0.3" y2="0.8" layer="51"/>
 <wire x1="2.8" y1="1.93" x2="1.2" y2="1.93" width="0.01" layer="51"/>
 <wire x1="2" y1="2.23" x2="2" y2="1.63" width="0.01" layer="51"/>
 <polygon width="0.01" layer="30">
@@ -936,40 +936,40 @@
 <vertex x="2.5" y="1.33" curve="90"/>
 <vertex x="3.1" y="1.93" curve="90"/>
 </polygon>
-<pad name="A6" x="-0.45" y="0.725" drill="0.5" diameter="0.8"/>
+<pad name="A6" x="-0.45" y="0.7" drill="0.5" diameter="0.8"/>
 <wire x1="-4.47" y1="1.2" x2="-3.9" y2="1.725" width="0.05" layer="51" curve="-94.297798"/>
 <wire x1="3.9" y1="-1.725" x2="-3.9" y2="-1.725" width="0.05" layer="51"/>
 <wire x1="-4.47" y1="-1.2" x2="-4.47" y2="1.2" width="0.05" layer="51"/>
 <wire x1="-3.9" y1="-1.725" x2="-4.47" y2="-1.2" width="0.05" layer="51" curve="-94.297798"/>
 <wire x1="4.47" y1="-1.2" x2="3.9" y2="-1.725" width="0.05" layer="51" curve="-94.297798"/>
-<rectangle x1="0.3" y1="0.625" x2="0.6" y2="0.825" layer="51"/>
-<pad name="A7" x="0.45" y="0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="-0.6" y1="-0.825" x2="-0.3" y2="-0.625" layer="51"/>
-<pad name="B7" x="-0.45" y="-0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="0.3" y1="-0.825" x2="0.6" y2="-0.625" layer="51"/>
-<pad name="B6" x="0.45" y="-0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="-1.5" y1="0.625" x2="-1.2" y2="0.825" layer="51"/>
-<pad name="A5" x="-1.35" y="0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="1.2" y1="-0.825" x2="1.5" y2="-0.625" layer="51"/>
-<pad name="B5" x="1.35" y="-0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="2.15" y1="-0.825" x2="2.45" y2="-0.625" layer="51"/>
-<pad name="B4" x="2.3" y="-0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="3.1" y1="-0.825" x2="3.4" y2="-0.625" layer="51"/>
-<pad name="B1" x="3.25" y="-0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="-2.45" y1="-0.825" x2="-2.15" y2="-0.625" layer="51"/>
-<pad name="B9" x="-2.3" y="-0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="-3.4" y1="-0.825" x2="-3.1" y2="-0.625" layer="51"/>
-<pad name="B12" x="-3.25" y="-0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="-2.45" y1="0.625" x2="-2.15" y2="0.825" layer="51"/>
-<pad name="A4" x="-2.3" y="0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="-3.4" y1="0.625" x2="-3.1" y2="0.825" layer="51"/>
-<pad name="A1" x="-3.25" y="0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="2.15" y1="0.625" x2="2.45" y2="0.825" layer="51"/>
-<pad name="A9" x="2.3" y="0.725" drill="0.5" diameter="0.8"/>
-<rectangle x1="3.1" y1="0.625" x2="3.4" y2="0.825" layer="51"/>
-<pad name="A12" x="3.25" y="0.725" drill="0.5" diameter="0.8"/>
-<pad name="SHLD1" x="-2" y="1.93" drill="0.4" diameter="0.6" shape="long" rot="R180" stop="no"/>
-<wire x1="-2.5" y1="1.93" x2="-1.5" y2="1.93" width="0.6" layer="46"/>
+<rectangle x1="0.3" y1="0.6" x2="0.6" y2="0.8" layer="51"/>
+<pad name="A7" x="0.45" y="0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="-0.6" y1="-0.8" x2="-0.3" y2="-0.6" layer="51"/>
+<pad name="B7" x="-0.45" y="-0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="0.3" y1="-0.8" x2="0.6" y2="-0.6" layer="51"/>
+<pad name="B6" x="0.45" y="-0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="-1.5" y1="0.6" x2="-1.2" y2="0.8" layer="51"/>
+<pad name="A5" x="-1.35" y="0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="1.2" y1="-0.8" x2="1.5" y2="-0.6" layer="51"/>
+<pad name="B5" x="1.35" y="-0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="2.15" y1="-0.8" x2="2.45" y2="-0.6" layer="51"/>
+<pad name="B4" x="2.3" y="-0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="3.1" y1="-0.8" x2="3.4" y2="-0.6" layer="51"/>
+<pad name="B1" x="3.25" y="-0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="-2.45" y1="-0.8" x2="-2.15" y2="-0.6" layer="51"/>
+<pad name="B9" x="-2.3" y="-0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="-3.4" y1="-0.8" x2="-3.1" y2="-0.6" layer="51"/>
+<pad name="B12" x="-3.25" y="-0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="-2.45" y1="0.6" x2="-2.15" y2="0.8" layer="51"/>
+<pad name="A4" x="-2.3" y="0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="-3.4" y1="0.6" x2="-3.1" y2="0.8" layer="51"/>
+<pad name="A1" x="-3.25" y="0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="2.15" y1="0.6" x2="2.45" y2="0.8" layer="51"/>
+<pad name="A9" x="2.3" y="0.7" drill="0.5" diameter="0.8"/>
+<rectangle x1="3.1" y1="0.6" x2="3.4" y2="0.8" layer="51"/>
+<pad name="A12" x="3.25" y="0.7" drill="0.5" diameter="0.8"/>
+<pad name="SHLD1" x="-2" y="1.93" locked="yes" drill="0.4" diameter="0.6" shape="long" rot="R180" stop="no"/>
+<wire x1="-2.7" y1="1.93" x2="-1.3" y2="1.93" width="0.6" layer="46"/>
 <polygon width="0.01" layer="29">
 <vertex x="-2.5" y="2.53"/>
 <vertex x="-1.5" y="2.53" curve="-90"/>
@@ -988,8 +988,8 @@
 <vertex x="-1.5" y="1.33" curve="90"/>
 <vertex x="-0.9" y="1.93" curve="90"/>
 </polygon>
-<pad name="SHLD3" x="2" y="-1.93" drill="0.4" diameter="0.6" shape="long" rot="R180" stop="no"/>
-<wire x1="1.5" y1="-1.93" x2="2.5" y2="-1.93" width="0.6" layer="46"/>
+<pad name="SHLD3" x="2" y="-1.93" locked="yes" drill="0.4" diameter="0.6" shape="long" rot="R180" stop="no"/>
+<wire x1="1.3" y1="-1.93" x2="2.7" y2="-1.93" width="0.6" layer="46"/>
 <polygon width="0.01" layer="29">
 <vertex x="1.5" y="-1.33"/>
 <vertex x="2.5" y="-1.33" curve="-90"/>
@@ -1008,8 +1008,8 @@
 <vertex x="2.5" y="-2.53" curve="90"/>
 <vertex x="3.1" y="-1.93" curve="90"/>
 </polygon>
-<pad name="SHLD4" x="-2" y="-1.93" drill="0.4" diameter="0.6" shape="long" rot="R180" stop="no"/>
-<wire x1="-2.5" y1="-1.93" x2="-1.5" y2="-1.93" width="0.6" layer="46"/>
+<pad name="SHLD4" x="-2" y="-1.93" locked="yes" drill="0.4" diameter="0.6" shape="long" rot="R180" stop="no"/>
+<wire x1="-2.7" y1="-1.93" x2="-1.3" y2="-1.93" width="0.6" layer="46"/>
 <polygon width="0.01" layer="29">
 <vertex x="-2.5" y="-1.33"/>
 <vertex x="-1.5" y="-1.33" curve="-90"/>
@@ -1028,14 +1028,14 @@
 <vertex x="-1.5" y="-2.53" curve="90"/>
 <vertex x="-0.9" y="-1.93" curve="90"/>
 </polygon>
-<wire x1="1.5" y1="-1.93" x2="2.5" y2="-1.93" width="1" layer="1"/>
-<wire x1="2.5" y1="-1.93" x2="1.5" y2="-1.93" width="1" layer="16"/>
-<wire x1="-1.5" y1="-1.93" x2="-2.5" y2="-1.93" width="1" layer="16"/>
-<wire x1="-2.5" y1="-1.93" x2="-1.5" y2="-1.93" width="1" layer="1"/>
-<wire x1="-1.5" y1="1.93" x2="-2.5" y2="1.93" width="1" layer="1"/>
-<wire x1="-2.5" y1="1.93" x2="-1.5" y2="1.93" width="1" layer="16"/>
-<wire x1="2.5" y1="1.93" x2="1.5" y2="1.93" width="1" layer="1"/>
-<wire x1="1.5" y1="1.93" x2="2.5" y2="1.93" width="1" layer="16"/>
+<wire x1="1.1" y1="-1.93" x2="2.9" y2="-1.93" width="1" layer="1"/>
+<wire x1="2.9" y1="-1.93" x2="1.1" y2="-1.93" width="1" layer="16"/>
+<wire x1="-1.1" y1="-1.93" x2="-2.9" y2="-1.93" width="1" layer="16"/>
+<wire x1="-2.9" y1="-1.93" x2="-1.1" y2="-1.93" width="1" layer="1"/>
+<wire x1="-1.1" y1="1.93" x2="-2.9" y2="1.93" width="1" layer="1"/>
+<wire x1="-2.9" y1="1.93" x2="-1.1" y2="1.93" width="1" layer="16"/>
+<wire x1="2.9" y1="1.93" x2="1.1" y2="1.93" width="1" layer="1"/>
+<wire x1="1.1" y1="1.93" x2="2.9" y2="1.93" width="1" layer="16"/>
 </package>
 </packages>
 <symbols>
@@ -1060,9 +1060,9 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 </symbols>
 <devicesets>
 <deviceset name="USB_C" prefix="J" uservalue="yes">
-<description>&lt;h3&gt;USB Type C 16Pin Connector&lt;/h3&gt;
+<description>&lt;h3&gt;USB Type C 14Pin Connector&lt;/h3&gt;
 
-Super Speed pins not available on the 16-pin purely SMD connector so this part is best for USB 2.0 implementations. D1 and D2 are tied together enabling D+/- no matter which way the cable is plugged into the connector. The two channel configuration pins (CC1/2) are exposed. These are normally connected to ground via 5.1k resistors but can be reconfigured for high current/high power applications.
+Suitable for USB 3.0 applications. D1 and D2 are tied together enabling D+/- no matter which way the cable is plugged into the connector. The two channel configuration pins (CC1/2) are exposed. These are normally connected to ground via 5.1k resistors but can be reconfigured for high current/high power applications.
 
 &lt;h2&gt;&lt;i&gt;**4-LAYER BOARD WARNING!!**&lt;/i&gt;&lt;/h2&gt;
 
@@ -1082,7 +1082,9 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <connect gate="J1" pin="VBUS" pad="A4 A9 B4 B9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
