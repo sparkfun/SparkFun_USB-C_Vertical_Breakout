@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,20 +54,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -21677,162 +21677,122 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SMT-JUMPER_2_NO_NO-SILK" urn="urn:adsk.eagle:footprint:39252/1">
+<package name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39258/1" locally_modified="yes">
+<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.2192" y1="0.5588" x2="-0.762" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.2192" y1="-0.5588" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.762" y1="-1.016" x2="1.2192" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.2192" y1="-0.5588" x2="1.2192" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-1.2192" y1="-0.5588" x2="-1.2192" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
+<smd name="1" x="-0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
-<package name="SMT-JUMPER_2_NO_NO-SILK_ROUND" urn="urn:adsk.eagle:footprint:39253/1">
-<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
-<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.00508125" layer="1">
-<vertex x="0.111125" y="-1.42875" curve="85"/>
-<vertex x="1.381125" y="0" curve="85"/>
-<vertex x="0.111125" y="1.42875"/>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1905" y="0.127"/>
+<vertex x="0.1905" y="0.127"/>
+<vertex x="0.1905" y="-0.127"/>
+<vertex x="-0.1905" y="-0.127"/>
 </polygon>
-<polygon width="0.00508125" layer="1">
-<vertex x="-0.111125" y="1.42875"/>
-<vertex x="-0.111125" y="-1.42875" curve="-85"/>
-<vertex x="-1.381125" y="0" curve="-85"/>
+<polygon width="0.0127" layer="1">
+<vertex x="-0.6985" y="0.127"/>
+<vertex x="0.0254" y="0.127"/>
+<vertex x="0.0254" y="-0.127"/>
+<vertex x="-0.6985" y="-0.127"/>
 </polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="0" y="1.42875" curve="-90"/>
-<vertex x="1.42875" y="0" curve="-90"/>
-<vertex x="0" y="-1.42875" curve="-90"/>
-<vertex x="-1.42875" y="0" curve="-90"/>
+<polygon width="0.0127" layer="1">
+<vertex x="-0.0254" y="0.127"/>
+<vertex x="0.6985" y="0.127"/>
+<vertex x="0.6985" y="-0.127"/>
+<vertex x="-0.0254" y="-0.127"/>
 </polygon>
 </package>
-<package name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:footprint:39254/1">
+<package name="SMT-JUMPER_2_NC_TRACE_NO-SILK" urn="urn:adsk.eagle:footprint:39257/1" locally_modified="yes">
+<smd name="1" x="-0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
-<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
-<package name="SMT-JUMPER_2_NO_SILK_ROUND" urn="urn:adsk.eagle:footprint:39255/1">
-<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
-<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.00508125" layer="1">
-<vertex x="0.111125" y="-1.42875" curve="85"/>
-<vertex x="1.381125" y="0" curve="85"/>
-<vertex x="0.111125" y="1.42875"/>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1905" y="0.127"/>
+<vertex x="0.1905" y="0.127"/>
+<vertex x="0.1905" y="-0.127"/>
+<vertex x="-0.1905" y="-0.127"/>
 </polygon>
-<polygon width="0.00508125" layer="1">
-<vertex x="-0.111125" y="1.42875"/>
-<vertex x="-0.111125" y="-1.42875" curve="-85"/>
-<vertex x="-1.381125" y="0" curve="-85"/>
+<polygon width="0.0127" layer="1">
+<vertex x="-0.6985" y="0.127"/>
+<vertex x="0.0254" y="0.127"/>
+<vertex x="0.0254" y="-0.127"/>
+<vertex x="-0.6985" y="-0.127"/>
 </polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="0" y="1.42875" curve="-90"/>
-<vertex x="1.42875" y="0" curve="-90"/>
-<vertex x="0" y="-1.42875" curve="-90"/>
-<vertex x="-1.42875" y="0" curve="-90"/>
+<polygon width="0.0127" layer="1">
+<vertex x="-0.0254" y="0.127"/>
+<vertex x="0.6985" y="0.127"/>
+<vertex x="0.6985" y="-0.127"/>
+<vertex x="-0.0254" y="-0.127"/>
 </polygon>
-<circle x="0" y="0" radius="1.74625" width="0.2032" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="SMT-JUMPER_2_NO_NO-SILK" urn="urn:adsk.eagle:package:39277/1" type="box">
+<package3d name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:package:39281/1" type="box">
 <packageinstances>
-<packageinstance name="SMT-JUMPER_2_NO_NO-SILK"/>
+<packageinstance name="SMT-JUMPER_2_NC_TRACE_SILK"/>
 </packageinstances>
 </package3d>
-<package3d name="SMT-JUMPER_2_NO_NO-SILK_ROUND" urn="urn:adsk.eagle:package:39278/1" type="box">
+<package3d name="SMT-JUMPER_2_NC_TRACE_NO-SILK" urn="urn:adsk.eagle:package:39286/1" type="box">
 <packageinstances>
-<packageinstance name="SMT-JUMPER_2_NO_NO-SILK_ROUND"/>
-</packageinstances>
-</package3d>
-<package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:39279/1" type="box">
-<packageinstances>
-<packageinstance name="SMT-JUMPER_2_NO_SILK"/>
-</packageinstances>
-</package3d>
-<package3d name="SMT-JUMPER_2_NO_SILK_ROUND" urn="urn:adsk.eagle:package:39280/1" type="box">
-<packageinstances>
-<packageinstance name="SMT-JUMPER_2_NO_SILK_ROUND"/>
+<packageinstance name="SMT-JUMPER_2_NC_TRACE_NO-SILK"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="SMT-JUMPER_2_NO">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<symbol name="SMT-JUMPER_2_NC_TRACE">
+<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="0" y="2.794" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-2.794" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
+<wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+<text x="0" y="3.048" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-3.048" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JUMPER-SMT_2_NO" prefix="JP">
-<description>&lt;h3&gt;Normally open jumper&lt;/h3&gt;
-&lt;p&gt;This jumper has two pads in close proximity to each other. Apply solder to close the connection.&lt;/p&gt;
-
-&lt;p&gt;Round pads are easier to solder for beginners, but are a lot larger.&lt;/p&gt;
-&lt;p&gt;SparkFun Product that uses the round pads:
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12781"&gt;SparkFun EL Sequencer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
+<deviceset name="JUMPER-SMT_2_NC_TRACE" prefix="JP">
+<description>&lt;h3&gt;Normally closed trace jumper&lt;/h3&gt;
+&lt;p&gt;This jumper has a trace between two pads so it's normally closed (NC). Use a razor knife to open the connection. For best results follow the IPC guidelines for cutting traces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cutout at least 0.063 mm (0.005 in).&lt;/li&gt;
+&lt;li&gt;Remove all loose material to clean up the cut area.&lt;/li&gt;
+&lt;li&gt;Seal the cut with an approved epoxy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reapply solder to reclose the connection.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="SMT-JUMPER_2_NO" x="0" y="0"/>
+<gate name="G$1" symbol="SMT-JUMPER_2_NC_TRACE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_NO-SILK" package="SMT-JUMPER_2_NO_NO-SILK">
+<device name="_NO-SILK" package="SMT-JUMPER_2_NC_TRACE_NO-SILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39277/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39286/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_NO-SILK_ROUND" package="SMT-JUMPER_2_NO_NO-SILK_ROUND">
+<device name="_SILK" package="SMT-JUMPER_2_NC_TRACE_SILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39278/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SILK" package="SMT-JUMPER_2_NO_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39279/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SILK_ROUND" package="SMT-JUMPER_2_NO_SILK_ROUND">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39280/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39281/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -22381,38 +22341,38 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <vertex x="2.5" y="1.33" curve="90"/>
 <vertex x="3.1" y="1.93" curve="90"/>
 </polygon>
-<pad name="A6" x="-0.45" y="0.7" drill="0.5" diameter="0.8"/>
+<pad name="A6" x="-0.45" y="0.7" drill="0.5" diameter="0.65" shape="square"/>
 <wire x1="-4.47" y1="1.2" x2="-3.9" y2="1.725" width="0.05" layer="51" curve="-94.297798"/>
 <wire x1="3.9" y1="-1.725" x2="-3.9" y2="-1.725" width="0.05" layer="51"/>
 <wire x1="-4.47" y1="-1.2" x2="-4.47" y2="1.2" width="0.05" layer="51"/>
 <wire x1="-3.9" y1="-1.725" x2="-4.47" y2="-1.2" width="0.05" layer="51" curve="-94.297798"/>
 <wire x1="4.47" y1="-1.2" x2="3.9" y2="-1.725" width="0.05" layer="51" curve="-94.297798"/>
 <rectangle x1="0.3" y1="0.6" x2="0.6" y2="0.8" layer="51"/>
-<pad name="A7" x="0.45" y="0.7" drill="0.5" diameter="0.8"/>
+<pad name="A7" x="0.45" y="0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="-0.6" y1="-0.8" x2="-0.3" y2="-0.6" layer="51"/>
-<pad name="B7" x="-0.45" y="-0.7" drill="0.5" diameter="0.8"/>
+<pad name="B7" x="-0.45" y="-0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="0.3" y1="-0.8" x2="0.6" y2="-0.6" layer="51"/>
-<pad name="B6" x="0.45" y="-0.7" drill="0.5" diameter="0.8"/>
+<pad name="B6" x="0.45" y="-0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="-1.5" y1="0.6" x2="-1.2" y2="0.8" layer="51"/>
-<pad name="A5" x="-1.35" y="0.7" drill="0.5" diameter="0.8"/>
+<pad name="A5" x="-1.35" y="0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="1.2" y1="-0.8" x2="1.5" y2="-0.6" layer="51"/>
-<pad name="B5" x="1.35" y="-0.7" drill="0.5" diameter="0.8"/>
+<pad name="B5" x="1.35" y="-0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="2.15" y1="-0.8" x2="2.45" y2="-0.6" layer="51"/>
-<pad name="B4" x="2.3" y="-0.7" drill="0.5" diameter="0.8"/>
+<pad name="B4" x="2.3" y="-0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="3.1" y1="-0.8" x2="3.4" y2="-0.6" layer="51"/>
-<pad name="B1" x="3.25" y="-0.7" drill="0.5" diameter="0.8"/>
+<pad name="B1" x="3.25" y="-0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="-2.45" y1="-0.8" x2="-2.15" y2="-0.6" layer="51"/>
-<pad name="B9" x="-2.3" y="-0.7" drill="0.5" diameter="0.8"/>
+<pad name="B9" x="-2.3" y="-0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="-3.4" y1="-0.8" x2="-3.1" y2="-0.6" layer="51"/>
-<pad name="B12" x="-3.25" y="-0.7" drill="0.5" diameter="0.8"/>
+<pad name="B12" x="-3.25" y="-0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="-2.45" y1="0.6" x2="-2.15" y2="0.8" layer="51"/>
-<pad name="A4" x="-2.3" y="0.7" drill="0.5" diameter="0.8"/>
+<pad name="A4" x="-2.3" y="0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="-3.4" y1="0.6" x2="-3.1" y2="0.8" layer="51"/>
-<pad name="A1" x="-3.25" y="0.7" drill="0.5" diameter="0.8"/>
+<pad name="A1" x="-3.25" y="0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="2.15" y1="0.6" x2="2.45" y2="0.8" layer="51"/>
-<pad name="A9" x="2.3" y="0.7" drill="0.5" diameter="0.8"/>
+<pad name="A9" x="2.3" y="0.7" drill="0.5" diameter="0.65" shape="square"/>
 <rectangle x1="3.1" y1="0.6" x2="3.4" y2="0.8" layer="51"/>
-<pad name="A12" x="3.25" y="0.7" drill="0.5" diameter="0.8"/>
+<pad name="A12" x="3.25" y="0.7" drill="0.5" diameter="0.65" shape="square"/>
 <pad name="SHLD1" x="-2" y="1.93" drill="0.4" diameter="0.6" shape="long" rot="R180" stop="no"/>
 <wire x1="-2.7" y1="1.93" x2="-1.3" y2="1.93" width="0.5" layer="46"/>
 <polygon width="0.01" layer="29">
@@ -22498,6 +22458,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <wire x1="-4.445" y1="1.91" x2="-4.75" y2="1.651" width="0.1524" layer="21"/>
 <wire x1="-4.75" y1="-1.651" x2="-4.445" y2="-1.9" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="-1.9" x2="4.75" y2="-1.651" width="0.1524" layer="21"/>
+<rectangle x1="-4.826" y1="-2.413" x2="4.826" y2="2.413" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -22577,7 +22538,7 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <part name="R1" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SHLD" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="SHLD"/>
+<part name="SHLD" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="SHLD"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
@@ -22594,7 +22555,6 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <text x="148.59" y="7.112" size="2.54" layer="94">Revision by: </text>
 <text x="148.59" y="7.112" size="2.54" layer="94">Revision by: </text>
 <text x="175.006" y="7.112" size="2.54" layer="94">M. Chodikov</text>
-<text x="88.9" y="124.46" size="1.778" layer="97">Output Current: 5A MAX</text>
 </plain>
 <instances>
 <instance part="LOGO2" gate="G$1" x="232.41" y="46.99" smashed="yes"/>
@@ -22692,9 +22652,9 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <pinref part="J2" gate="J1" pin="CC1"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="4"/>
-<wire x1="152.4" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="152.4" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
+<label x="152.4" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="J1" pin="6"/>
 </segment>
 </net>
 <net name="SHLD" class="0">
@@ -22708,9 +22668,9 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <pinref part="J2" gate="J1" pin="SHLD"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="2"/>
 <wire x1="152.4" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
 <label x="152.4" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="J1" pin="2"/>
 </segment>
 </net>
 <net name="CC2" class="0">
@@ -22724,9 +22684,9 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <pinref part="J2" gate="J1" pin="CC2"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="3"/>
 <wire x1="152.4" y1="104.14" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
 <label x="152.4" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="J1" pin="3"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -22736,9 +22696,9 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <pinref part="J2" gate="J1" pin="D-"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="6"/>
-<wire x1="154.94" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
-<label x="152.4" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
+<label x="152.4" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="J1" pin="5"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -22748,9 +22708,9 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <pinref part="J2" gate="J1" pin="D+"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="5"/>
-<wire x1="152.4" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
-<label x="152.4" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
+<label x="152.4" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="J1" pin="4"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
