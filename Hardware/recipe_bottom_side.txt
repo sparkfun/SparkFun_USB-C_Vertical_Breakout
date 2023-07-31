@@ -1,0 +1,18 @@
+F1 PCB-1234 Bottom
+F2 Readable 'Sparkfun'
+F3 0 0 microref
+F3 10160 19050 microref
+F5 0 0
+F51 0 0
+F52 Auto
+F53 0 0 0
+F54 Auto
+F55 0 2 SQUARE
+F6 0 0
+F7 0 0
+F8 3810 3175 -979959184 0 N N RES-12083
+F81 0
+F9 5.1kohmresistor-0
+F8 3810 15875 -979959184 0 N N RES-12083
+F81 0
+F9 5.1kohmresistor-1

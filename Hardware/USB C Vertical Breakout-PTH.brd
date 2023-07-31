@@ -3388,10 +3388,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="6.35" y="8.89" extent="1-16" drill="0.3048"/>
 <via x="6.35" y="1.27" extent="1-16" drill="0.3048"/>
 <via x="8.89" y="16.51" extent="1-16" drill="0.3048"/>
-<contactref element="J2" pad="B12"/>
-<contactref element="J2" pad="A1"/>
-<contactref element="J2" pad="A12"/>
-<contactref element="J2" pad="B1"/>
+<contactref element="J2" pad="B12" route="any" routetag="J1.GND"/>
+<contactref element="J2" pad="A1" route="any" routetag="J1.GND"/>
+<contactref element="J2" pad="A12" route="any" routetag="J1.GND"/>
+<contactref element="J2" pad="B1" route="any" routetag="J1.GND"/>
 <via x="8.89" y="13.97" extent="1-16" drill="0.3048"/>
 <wire x1="3.875" y1="6.91" x2="4.435" y2="6.35" width="0.3048" layer="1"/>
 <wire x1="4.435" y1="6.35" x2="4.699" y2="6.35" width="0.3048" layer="1"/>
@@ -3421,15 +3421,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="7.874" y1="18.6944" x2="7.5184" y2="19.05" width="0.3048" layer="16"/>
 <wire x1="7.5184" y1="19.05" x2="6.3627" y2="19.05" width="0.3048" layer="16"/>
 <via x="7.874" y="18.669" extent="1-16" drill="0.3048"/>
-<wire x1="1.245" y1="14.224" x2="2.2862" y2="15.2652" width="0.3048" layer="1"/>
+<wire x1="1.245" y1="14.605" x2="1.9052" y2="15.2652" width="0.3048" layer="1"/>
 <contactref element="J2" pad="SHLD4"/>
 <contactref element="J2" pad="SHLD2"/>
 <contactref element="J2" pad="SHLD3"/>
 <contactref element="J2" pad="SHLD1"/>
 <wire x1="1.245" y1="8.16" x2="1.245" y2="12.16" width="0.3048" layer="16"/>
-<wire x1="1.245" y1="12.16" x2="1.245" y2="14.224" width="0.3048" layer="1"/>
+<wire x1="1.245" y1="12.16" x2="1.245" y2="14.605" width="0.3048" layer="1"/>
 <wire x1="5.105" y1="8.16" x2="5.105" y2="12.16" width="0.3048" layer="16"/>
-<wire x1="4.1658" y1="15.2652" x2="2.2862" y2="15.2652" width="0.3048" layer="1"/>
+<wire x1="4.1658" y1="15.2652" x2="1.9052" y2="15.2652" width="0.3048" layer="1"/>
 <wire x1="5.105" y1="12.16" x2="5.105" y2="14.326" width="0.3048" layer="1"/>
 <wire x1="5.105" y1="14.326" x2="4.1658" y2="15.2652" width="0.3048" layer="1"/>
 <wire x1="7.874" y1="18.669" x2="7.874" y2="15.24" width="0.3048" layer="1"/>
@@ -3534,6 +3534,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="7,39,d4ee9ee5b17fca00"/>
 <approved hash="7,39,2cef5ae3a451e329"/>
 <approved hash="19,16,441b4e7b1879141b"/>
+<approved hash="23,1,ff66bf0b1f04ef60"/>
 </errors>
 </board>
 </drawing>
