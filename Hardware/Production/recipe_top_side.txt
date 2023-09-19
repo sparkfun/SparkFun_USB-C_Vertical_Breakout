@@ -1,0 +1,12 @@
+F1 PCB-1111
+F2 Barrel Jack on the Right
+F3 0 0 regularFid
+F3 145732 0 regularFid
+F5 0 0
+F51 0 0
+F52 Auto
+F53 0 0 0
+F54 Auto
+F55 0 2 SQUARE
+F6 0 0
+F7 0 0

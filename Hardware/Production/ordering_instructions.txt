@@ -9,3 +9,7 @@ stencils, top+bottom
 pcs per panel, 70
 min trace width, 0.1270mm / 0.0050in
 min drill size, 0.3048mm / 0.0120in
+PCBA type, Standard
+assembly side, both sides
+edge rails/fiducials, Added by Customer
+confirm parts placement, yes
