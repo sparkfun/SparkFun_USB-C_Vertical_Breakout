@@ -1,49 +1,42 @@
-SparkFun USB-C Vertical Mount Breakout <>
-========================================
+SparkFun USB-C Vertical Mount Breakout
+======================================
 
-[![USB-C Vertical Mount Breakout](URL for picture of part)](URL for product on Sparkfun.com)
+[![SparkFun USB-C Breakout - Vertical](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/2/5/0/23055-_BOB_USB-C_Vertical_Breakout-_01.jpg)](https://www.sparkfun.com/products/23055)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun USB-C Breakout - Vertical (BOB-23055)*](https://www.sparkfun.com/products/23055)
 
-<This project is a simple breakout board for a USB-C Vertical Mount Breakout connector.>
+With this USB-C breakout you will be able to incorporate a vertical USB-C connector into your projects without needing to solder each tiny SMD pad. The vertical orientation of the USB-C connector is also convenient for panel mounts in projects.
+
+The SparkFun USB-C Breakout supplies up to three times the power as our previous USB breakouts *(i.e. Type-A, micro-B, and mini-B)* and also solves the universally frustrating dilemma of plugging a USB cable in correctly because it's reversible! The board breaks out the USB-C connector's `VBUS`, `GND`, `CC1`, `CC2`, `D+`, `D-`, and `SHLD` pins into a 0.1" pitch header while providing up to a nominal 1.5A of power and up to 3A depending on the upstream device.
+
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
 *   **/Production** - Production panel files (.brd)
-* **/Libraries** - Libraries for use with the <USB-C Vertical Mount Breakout>
 
-Documentation
---------------
-* **[Library](https://github.com/sparkfun/USB-C_Vertical_Breakout/tree/main/Libraries)** - <EAGLE> library for the Vertical Mount USB-C Connector<>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
-
-Product Versions
+Product Variants
 ----------------
-* [Part SKU](part URL) - Basic part and short description here
-* [Retail part SKU](retail URL) - Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
+
+* [BOB-23055](https://www.sparkfun.com/products/23055) - Vertical USB-C connector
+* [BOB-15100](https://www.sparkfun.com/products/15100) - USB-C Breakout *(Horizontal USB-C connector)*
 
 Version History
 ---------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+
+* [v10](https://github.com/sparkfun/SparkFun_USB-C_Vertical_Breakout/releases/tag/v01) - Initial Release
+
 
 License Information
 -------------------
 
-This product is _**open source**_! 
+This product is ***open source***!
 
-Please review the LICENSE.md file for license information. 
+Please review the [`LICENSE.md`](./LICENSE.md) file for license information.
 
-If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
+If you have any questions or concerns about licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
 
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
